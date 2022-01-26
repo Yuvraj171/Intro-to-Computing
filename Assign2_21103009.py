@@ -41,10 +41,10 @@ print('Hey,', name, 'Here!\n'
 # Question 3
 
 a = 56
-# a is a variable which assigned a value of 56
+# a is a variable which is assigned a value of 56
 
 b = 10
-# b is a variable which assigned a value of 10
+# b is a variable which is assigned a value of 10
 
 print('a&b:', a & b)
 print('a|b:', a | b)
