@@ -20,17 +20,18 @@ print(inp_str.replace(' ', ''))
 
 # Question 2
 
-# name variable is used for the user to enter his name
 name = str(input('Enter your name:'))
+# name variable is used for the user to enter his name
 
-# sid variable is used for the user to enter his SID
 sid = int(input('Enter you sid:'))
+# sid variable is used for the user to enter his SID
 
-# dept variable is used for the user to enter his department
 dept = str(input('Enter your department:'))
+# dept variable is used for the user to enter his department
 
-# cgpa variable is used for the user to enter his CGPA
 cgpa = float(input('Enter your CGPA:'))
+# cgpa variable is used for the user to enter his CGPA
+
 print('Hey,', name, 'Here!\n' 
       'My SID is ', sid, '\n'
       'I am from', dept, 'and my CGPA is:', cgpa)
@@ -43,7 +44,7 @@ a = 56
 # a is a variable which assigned a value of 56
 
 b = 10
-# a is a variable which assigned a value of 56
+# b is a variable which assigned a value of 10
 
 print('a&b:', a & b)
 print('a|b:', a | b)
@@ -68,6 +69,8 @@ print("The greatest value is:", list[0])
 # Question 5
 
 inp_string = str(input('Enter a string:'))
+#inp_string is a variable used for the user to enter a string
+
 if 'name' in inp_string:
     print('Yes')
 else:
